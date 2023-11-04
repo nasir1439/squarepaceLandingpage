@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Thambi+2&family=Borel&family=Bree+Serif&family=Nunito+Sans:ital,wght@1,200&family=PT+Sans&family=Poppins:wght@200;300;400;500&family=Raleway:wght@300&family=Rubik:wght@300;400;500&family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+#uno{
+    margin-top: 20px;
+    height: 70px;
+    -webkit-filter: invert(100%);
+    cursor: pointer;
+}
+#navpart-2{
+    display: flex;
+    gap: 35px;
+}
+#navpart-3{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+#nav h3{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#nav h4{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#nav h3:hover{
+    color: rgb(197, 195, 195);
+}
+#nav button{
+    color: black;
+    padding: 10px 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#nav button:hover{
+    background-color: rgb(197, 195, 195);
+}
+#nav h4:hover{
+    color: rgb(197, 195, 195);
+   
+}
+#main h1{
+    font-size: 100px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+#main h1 span{
+    background-color: brown;
+    color: #000;
+    font-size: 70px;
+    padding: 20px;
+    border-radius:150px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#main h1:nth-child(2)
+{
+    /* color: red; */
+
+}
+#d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main #left-img{
+    height: 300px;
+    position:absolute;
+    top: 20%;
+    left: 6%;
+    border-radius:10px;
+    opacity: 0.8;
+}
+#main #right-img{
+    height: 300px;
+    position:absolute;
+    bottom: 20%;
+    right: 6%;
+    border-radius:10px;
+    opacity: 0.5;
+}
+
+#main #bottom
+{
+    height: 250px;
+    position:absolute;
+    top: 400px;
+    left: 400px;
+    border-radius:10px;
+    opacity: 0.5;
+}
+#on{
+    z-index: -1;
+}
+h5{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 25px;
+}
